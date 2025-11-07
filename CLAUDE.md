@@ -33,7 +33,8 @@ This skill helps users create authentic content in **6 core formats + advanced v
 
 - **`src/smart-content-creator/`** - Source files for the skill (tracked in Git)
   - `SKILL.md` - Main workflow and content creation process
-  - `references/` - Detailed format guides (10 total)
+  - `references/` - Detailed format guides (11 total)
+    - `writing_principles.md` ⭐ - First principles approach to writing quality
     - `personal_voice_guide.md` ⭐ - Voice identification and preservation
     - `depth_guide.md` ⭐ - Deep content creation methodology
     - `natural_language.md` ⭐ - Critical anti-AI writing guide
@@ -49,7 +50,7 @@ This skill helps users create authentic content in **6 core formats + advanced v
 
 - **`smart-content-creator.skill`** - The packaged skill file (built from `src/`)
   - Format: Standard Claude skill package (ZIP archive)
-  - Size: ~60KB (optimized for context window efficiency)
+  - Size: ~82KB (optimized for context window efficiency)
   - Built using: `./build.sh`
 
 ### Build Script
@@ -285,7 +286,8 @@ Avoid:
 - **Current version: 1.0.0**
 - **What's new in 1.0:**
   - 6 core content formats (3 text + 3 visual)
-  - 10 comprehensive reference guides
+  - 11 comprehensive reference guides
+  - Writing principles: First principles approach to writing quality
   - Personal voice preservation system
   - Deep content creation methodology
   - Natural language anti-AI patterns
